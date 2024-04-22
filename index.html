@@ -3,334 +3,415 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Figma To HTML | class 07</title>
+    <title>Bootstrap Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
+
   <body>
-    <!-- Header -->
-    <header id="header">
-      <nav id="nav">
-        <div class="ds_logo_wrapper logo_header">
-          <h2 class="logo ds_fs_35">Logo</h2>
-        </div>
-        <ul class="nav_list">
-          <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">services</a></li>
-          <li><a href="#">contact</a></li>
-        </ul>
-        <ul class="nav_list_right">
-          <li><a href="#" class="btn btn_signup">Signup</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- End of Header -->
-    <!-- Hero -->
-    <section class="ds_hero">
-      <div class="ds_content">
-        <div class="ds_social">
-          <ul class="ds_social_list">
-            <li>
-              <a href="#"
-                ><img src="./assets/imgs/social/facebook.png" alt="facebook"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/imgs/social/github.png" alt="github"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/imgs/social/google.png" alt="google"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./assets/imgs/social/instagram.png" alt="instagram"
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <div class="ds_right_content">
-          <h2 class="ds_hero_title ds_fs_30">A Place to Learn Together</h2>
-          <p class="ds_para ds_fs_18">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of lettersre.
-          </p>
-          <a href="#" class="btn ds_learn_more ds_fs_18"
-            >Learn More
-            <img
-              class="ds_arrow_right_top"
-              src="./assets/imgs/arrow-right-top.png"
-              alt="riht arrow"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!-- End of Hero -->
-    <!-- Learn with us -->
-    <section class="ds_learn_with_us">
-      <div class="ds_learn_with_us_innter">
-        <div class="heading ds_fs_25"><h2>Learn with us</h2></div>
-        <div class="ds_cards">
-          <div class="ds_card">
-            <div class="ds_icon_warp">
-              <img src="./assets/imgs/us/wd.png" alt="Web Design" />
-            </div>
-            <div class="ds_card_content">
-              <h3 class="ds_fs_25 ds_card_title">Web Design</h3>
-              <p class="para ds_fs_14">
-                We are running Free web design batch for 3 months
-              </p>
-            </div>
-          </div>
-          <div class="ds_card">
-            <div class="ds_icon_warp">
-              <img src="./assets/imgs/us/dm.png" alt="Web Design" />
-            </div>
-            <div class="ds_card_content">
-              <h3 class="ds_fs_25 ds_card_title">Desital Marketing</h3>
-              <p class="para ds_fs_14">
-                We are running Free web design batch for 3 months
-              </p>
-            </div>
-          </div>
-          <div class="ds_card">
-            <div class="ds_icon_warp">
-              <img src="./assets/imgs/us/gd.png" alt="Graphic Design" />
-            </div>
-            <div class="ds_card_content">
-              <h3 class="ds_fs_25 ds_card_title">Graphic Design</h3>
-              <p class="para ds_fs_14">
-                We are running Free web design batch for 3 months
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Learn with us End -->
-    <!-- Our Team -->
-    <section class="ds_our_team">
-      <div class="ds_our_team_innter">
-        <div class="heading ds_fs_25"><h2>Meet Our Team</h2></div>
-        <!-- Cards -->
-        <div class="team_cards">
-          <!-- card 1 -->
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
+    <!-- Navbar -->
 
-          <!-- card 1 End -->
-          <!-- card 2 -->
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-
-          <!-- card 2 End -->
-          <!-- card 3 -->
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-          <!-- card 3 End -->
-          <!-- card 4-->
-
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-          <!-- card 4 End -->
-          <!-- card 5 -->
-
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-
-          <!-- card 5 End -->
-        </div>
-        <!-- Cards End -->
-        <div class="team_cards cards_bottom">
-          <!-- card 6 -->
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-
-          <!-- card 6 End -->
-          <!-- card 7 -->
-
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-
-          <!-- card 7 End -->
-
-          <!-- card 8 -->
-
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-          <!-- card 8 End -->
-          <!-- card 9 -->
-          <div class="ds_team_card">
-            <div class="ds_pic_warp">
-              <img
-                src="./assets/imgs/team/team-member-1.png"
-                alt="Graphic Design"
-              />
-            </div>
-            <div class="ds_team_card_content">
-              <h3 class="ds_fs_17 ds_tm_card_title">Instructor Name</h3>
-              <p class="tm_para ds_fs_12">Web Developer and Instructor</p>
-            </div>
-          </div>
-          <!-- card 10 End -->
-        </div>
-      </div>
-    </section>
-    <!-- Our Team End -->
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="foot_inner">
-        <div class="widgets">
-          <!-- Widget 1 -->
-          <div class="widget">
-            <div class="ds_logo_wrapper logo_footer">
-              <h2 class="logo ds_fs_35">Logo</h2>
-            </div>
-            <p class="foot_para ds_fs_14">
-              It is a long established fact that a reader will be distracted.
-            </p>
-            <div class="ds_social">
-              <ul class="ds_social_list ds_social_foot_list">
-                <li>
-                  <a href="#"
-                    ><img src="./assets/imgs/social/google.png" alt="google"
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img
-                      src="./assets/imgs/social/facebook.png"
-                      alt="facebook"
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img
-                      src="./assets/imgs/social/instagram.png"
-                      alt="instagram"
-                  /></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Widget 1 End-->
-          <!-- Widget 2-->
-          <div class="widget quick_links">
-            <h4 class="heading">Quick Links</h4>
-            <ul class="quick_list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+        <div class="container">
+          <a class="navbar-brand" href="#">Code Care BD</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Companies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Icon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
             </ul>
           </div>
-          <!-- Widget 2 End-->
-          <!-- Widget 3-->
-          <div class="widget subscribe">
-            <div class="subscribe_content">
-              <h4 class="heading">Subscribe</h4>
-              <div class="newsletter">
-                <form class="newsletter_form">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                  <button type="submit">Subscribe</button>
-                </form>
-              </div>
-            </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--hero section start -->
+
+    <section class="gradiant py-5 position-relative">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <div class="col">
+            <h2>Build website using MDB</h2>
+            <p>
+              It's crafted with the latest trend of design &amp; coded with all
+              modern approaches. It's a robust &amp; multi-dimensional usable
+              template.
+            </p>
+
+            <button type="button" class="btn btn-primary btn-lg">
+              Learn More
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">
+              Read More
+            </button>
           </div>
-          <!-- Widget 3 End-->
+
+          <div class="col">
+            <img
+              src="./assets/imgs/email_campaign_monochromatic.svg"
+              alt="email campaign monochromatic"
+            />
+          </div>
         </div>
       </div>
+
+      <div class="custom-shape-divider-bottom-1713354269">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!--hero section end -->
+
+    <!-- brand section start -->
+
+    <section class="my-4 pt-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/clients/1.png" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/clients/2.png" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/clients/3.png" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/clients/4.png" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/clients/5.png" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/clients/6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand section end-->
+
+    <!-- intro section start-->
+
+    <section class="gradiant py-5 gx-4 position-relative">
+      <div class="container">
+        <div class="row gx-4 align-items-center text-white">
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="./assets/imgs/seo_monochromatic.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="col">
+            <h2>Introducing MDB</h2>
+            <p>
+              It's crafted with the latest trend of design &amp; coded with all
+              modern approaches. It's a robust &amp; multi-dimensional usable
+              template.
+            </p>
+
+            <ul>
+              <li>Best for Creative Agency</li>
+              <li>Built with Latest Technology</li>
+              <li>Super Responsive</li>
+              <li>Creative Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-top-1713376697">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+
+      <!-- shape divider bottom -->
+      <div class="custom-shape-divider-bottom-1713354269">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- intro section end-->
+
+    <!-- another  icon plus info section -->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="gradiant icons">
+              <i class="bi bi-lock-fill text-white fs-4"></i>
+            </div>
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores vel unde impedit eveniet?
+            </p>
+          </div>
+
+          <div class="col text-center">
+            <div class="gradiant icons">
+              <i class="bi bi-chat-right-dots text-white fs-4"></i>
+            </div>
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores vel unde impedit eveniet?
+            </p>
+          </div>
+
+          <div class="col text-center">
+            <div class="gradiant icons">
+              <i class="bi bi-geo-alt-fill text-white fs-4"></i>
+            </div>
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores vel unde impedit eveniet?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- image section -->
+    <section class="bg-light">
+      <div class="container">
+        <h2>Check our latest awesome creative work</h2>
+        <p>
+          It's crafted with the latest trend of design &amp; coded with all
+          modern approaches. It's a robust &amp; multi-dimensional usable
+          template
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row my-5">
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/c/c1.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/c/c2.jpg" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/c/c3.jpg" alt="" />
+          </div>
+
+          <div class="text-end my-4">
+            <button class="btn btn-primary">See All</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- marketing section -->
+
+    <section class="gradiant py-5 position-relative">
+      <div class="custom-shape-divider-top-1713376697">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="row py-5">
+          <div class="col 6 text-white">
+            <button class="btn btn-primary">Read More</button>
+            <h2>Our Coding</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quis
+              enim ipsam incidunt dolore saepe quo temporibus nam earum libero
+              debitis, itaque obcaecati cumque, sunt ratione. Minus asperiores
+              reprehenderit nam?
+            </p>
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/coding_.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="row py-5">
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/marketing.svg" alt="" />
+          </div>
+
+          <div class="col 6 text-white">
+            <button class="btn btn-primary">Read More</button>
+            <h2>Our Coding</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quis
+              enim ipsam incidunt dolore saepe quo temporibus nam earum libero
+              debitis, itaque obcaecati cumque, sunt ratione. Minus asperiores
+              reprehenderit nam?
+            </p>
+          </div>
+        </div>
+
+        <div class="row py-5">
+          <div class="col 6 text-white">
+            <button class="btn btn-primary">Read More</button>
+            <h2>Our Coding</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quis
+              enim ipsam incidunt dolore saepe quo temporibus nam earum libero
+              debitis, itaque obcaecati cumque, sunt ratione. Minus asperiores
+              reprehenderit nam?
+            </p>
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="./assets/imgs/handshake.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-bottom-1713354269">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- bottom section -->
+    <section class="py-5">
+      <div class="container"></div>
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid" src="./revenue_.svg" alt="" />
+        </div>
+
+        <div class="col text-semiwhite">
+          <h2>Contact Us</h2>
+
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label"
+              >Example label</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="Example input placeholder"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label"
+              >Another label</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Another input placeholder"
+            />
+          </div>
+
+          <button class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="gradiant py-4">
+      <p class="text-center text-white">
+        Copyright © <span class="current_year"></span> All Reserved By
+        <a href="https://codecarebd.com" class="text-white">CodeCareBD</a>
+      </p>
     </footer>
-    <!-- Footer End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+     document.querySelector(".current_year").innerHTML =
+        new Date().getFullYear()
+
+    </script>
   </body>
 </html>
