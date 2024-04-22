@@ -14,7 +14,7 @@ btnToggler.addEventListener("click", () => {
     menu.classList.remove(show);
   }
 });
-
+// track all li
 document.querySelectorAll("ul.menu>li").forEach((ele) => {
   ele.addEventListener("click", () => {
     const ptypeTxt = printType.value;
